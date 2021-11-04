@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   max-width: 1100px;
-  background: #ebfeff;
+  background: rgb(255,81,81);
+  background: linear-gradient(321deg, rgba(255,81,81,1) 22%, rgba(255,155,106,1) 72%);
   border-radius: 10px;
   border: 2px solid #0085a3;
   padding: 20px;

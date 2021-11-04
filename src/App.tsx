@@ -33,7 +33,7 @@ export const  App = () =>{
 
   }
   const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
-
+    const answer = e.currentTarget.value;
   }
   const nextQuestion = () => {
 

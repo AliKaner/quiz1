@@ -33,7 +33,11 @@ export const  App = () =>{
 
   }
   const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
-    const answer = e.currentTarget.value;
+    if(!gameOver){
+      const answer = e.currentTarget.value;
+    }
+    const correct = questions[number].correct_answer === answer;
+    if(correct) setScore(prev => prev +1);
   }
   const nextQuestion = () => {
 

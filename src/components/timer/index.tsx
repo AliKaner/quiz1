@@ -5,6 +5,9 @@ export type Time = {
     minute: number;
 }
 
+const timepass = () => {
+
+}
 const Timer: React.FC<Props> = ({
     second,
     minute,

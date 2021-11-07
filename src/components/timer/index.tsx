@@ -13,9 +13,8 @@ const Timer: React.FC<Props> = ({
     minute,
 }) => (
     <div>
-    <div>
         {minute}:{second}
     </div>
-    </div>
+   
 
 )

@@ -1,9 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 
 export type Time = {
     second: number;
     minute: number;
 }
+
+const [time,setTime] = useState([])
 
 const timepass = () => {
 
